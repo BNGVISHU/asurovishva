@@ -14,7 +14,10 @@ const page = () => {
         yt: 'https://www.youtube.com/@asurovishva',
         boomplay: 'https://www.boomplay.com/artists/118451984',
         instagram: "https://www.instagram.com/asurovishva",
-        contact: 'mailto:asurovishva@gmail.com?subject=Inquiry from Website'
+        contact: 'mailto:asurovishva@gmail.com?subject=Inquiry from Website',
+        barsolleny:"https://www.youtube.com/@barsolleny",
+        asurovishvaMerchandise : "https://my-store-110b1cf.creator-spring.com/listing/asurovishva",
+        xdotcom : "https://x.com/asurovishva"
     }
 
     const handleclick = (e) => {
@@ -109,6 +112,10 @@ const page = () => {
                         <img src='/insta.svg' className='size-10 pointer-events-none'></img>
                         <p className='pointer-events-none'>Instagram</p>
                     </button>
+                    <button onClick={handleclick} className='bg-neutral-800 p-4 rounded-2xl flex flex-row items-center gap-3 geo-font text-2xl cursor-pointer ' id="xdotcom">
+                        <img src='/x-social-media-logo-icon.svg' className='size-10 pointer-events-none'></img>
+                        <p className='pointer-events-none'>X</p>
+                    </button>
                 </div>
             </div>
 
@@ -117,6 +124,23 @@ const page = () => {
                     <h1 className='geo-font text-3xl text-red-500 '>Redirecting...</h1>
                 </div>
             </div>}
+            <div className="intro bg-[url('/back-intro-barsolleny.png')]  bg-contain  mt-10 max-sm:justify-center flex flex-col max-sm:items-center  max-sm:w-full max-sm:pt-10 max-sm:pb-10">
+                <div className='intro h-full bg-[rgba(0,0,0,0.7)] p-40  max-sm:p-0  w-full flex flex-col items-center text-center justify-center gap-5 max-sm:w-full'>
+                    <div className='Introtext max-sm:text-center max-sm:w-full'>
+                        <h1 className='geo-font text-9xl max-sm:text-6xl'>BARSOLLENY</h1>
+                        <p className='text-5xl geo-font max-sm:text-4xl'>FOR RISING ARTISTS.</p>
+                        <div className='buttonTxt w-full flex justify-center pt-5  max-sm:justify-center max-sm:items-center'>
+                            <button
+                                onClick={handleclick}
+                                id='barsolleny'
+                                className='p-3 rounded-2xl bg-red-800 flex flex-row gap-3 text-xl justify-center items-center cursor-pointer w-1/3'
+                            >
+                                <p className='max-sm:text-xl pointer-events-none '>View On YT</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
