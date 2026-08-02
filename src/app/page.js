@@ -7,7 +7,7 @@ const page = () => {
     const [redStr, setRedStr] = useState(false)
 
     const platformLinks = {
-        spotify: 'https://open.spotify.com/artist/6CVQGU5VtsX7WDVfuzNmQs?si=FBVzbvaWSJ-jqnyNI-cKDQ',
+        spotify: 'https://open.spotify.com/artist/6CVQGU5VtsX7WDVfuzNmQs?utm_source=asurovishvaWebsite',
         appletune: 'https://music.apple.com/ca/artist/asurovishva/1820463443',
         amazonmusic: 'https://music.amazon.in/artists/B0FD4BR2YY/asurovishva',
         saavn: 'https://www.jiosaavn.com/artist/asurovishva-songs/XQ44NmMeIOo_',
